@@ -14,3 +14,4 @@ A doctype is a block representing an entity or table.
 
 ### Remarks
 * Doctypes can have titles such `Weird Case` as their Id.
+* Insertion a doctype goes through: before_insert -> validate -> on_update -> after_isnert.
